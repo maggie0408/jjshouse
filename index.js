@@ -1,9 +1,6 @@
 const index=require("./public/js/index");
-//index();
-//console.log(index);
-
 const header=require('./public/js/header');
-//header();
-
 const footer=require('./public/js/footer');
-//footer();
+const products=require('./public/js/products');
+const signIn=require('./public/js/signin');
+const details=require('./public/js/details');

@@ -10,6 +10,7 @@ var app = express();
 var server = app.listen(8000);
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.static('./public'));
+app.use(express.static('./dist'));
 app.use(express.static('./index.html'));
 app.use(session({
     secret:"128位随机字符串",

@@ -29,7 +29,6 @@ module.exports=$(function(){
     $("#box>ol>li").each(function(index){
         $(this).mouseover(function(){
             num=index;
-            console.log(this);
             $(this).addClass("current").siblings().removeClass("current");
             $("#box>ul").stop().animate({"marginLeft":-100*num+"%"},580);
         })
